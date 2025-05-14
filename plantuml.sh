@@ -1,11 +1,10 @@
+
 #!/bin/bash
 
-echo $$;
+echo $$
 
-docker rm plantuml
+# Remove existing container if it exists
+podman rm -f plantuml 2>/dev/null
 
-# https://plantuml.com/security
-docker run --env PLANTUML_SECURITY_PROFILE=LEGACY --name plantuml -p 6200:8080 plantuml/plantuml-server:tomcat-v1.2024.4
-# docker run --env PLANTUML_SECURITY_PROFILE=LEGACY --name plantuml -p 6200:8080 plantuml/plantuml-server:tomcat-v1.2023.10
-
-# docker run -p 6200:6200 plantuml/plantuml-server:tomcat-v1.2022.6
+# Start the PlantUML server using Podman
+podman run --env PLANTUML_SECURITY_PROFILE=LEGACY --name plantuml -p 6200:8080 plantuml/plantuml-server:tomcat-v1.2024.4
