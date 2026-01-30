@@ -1,3 +1,30 @@
+## 🌇 Repo Sunset Notice
+
+I had a **good stint with PlantUML**, and I genuinely admire the tool and the ecosystem it created.  
+It has served me well for many years. 🙏
+
+However, in **today’s AI-native era**, I now **recommend using 👉 [Mermaid](https://mermaid.ai)** instead.
+
+### 🚀 Why Mermaid?
+- ✅ **Native support** in **GitHub** and **GitLab** Markdown
+- 🤖 **AI coding agents** can generate **live sequence diagrams instantly**
+- 👀 Diagrams are **immediately viewable** without extra rendering steps
+- 💡 Overall, a **much better fit for modern, AI-assisted workflows**
+
+Because of this shift:
+
+- 📦 **This repository is now archived**
+- ❌ **I do not recommend anyone to starting using new work with PlantUML**
+- ✅ **Mermaid is the preferred alternative going forward**
+
+Thank you to everyone who used, or learned from this repository. 💙
+
+---
+
+# PlantUML Diagramming
+
+---
+
 # Plant UML Diagramming
 
 The purpose of this document is to provide an overview for using PlantUML as an efficient method for generating architecture diagrams. It intentionally forgoes some standard diagramming styles in favor of efficiency.
